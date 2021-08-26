@@ -1,0 +1,11 @@
+
+#navbar{
+    position: fixed;
+    /* object-position: right; */
+    
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 255, 97);
+    }
