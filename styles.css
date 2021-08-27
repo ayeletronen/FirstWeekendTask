@@ -1,11 +1,43 @@
-
-#navbar{
-    position: fixed;
-    /* object-position: right; */
-    
+body {
+  font-size: 40px;
+  background-color: bisque;
+  font-family: fantasy;
+  text-align: center;
 }
-/* On screens that are 600px or less, set the background color to olive */
+#navbar {
+  position: fixed;
+  bottom:40%;
+  background-color: rgba(255, 102, 102, 20%);
+  font-size: 20px;
+  /* margin-left: 0%;  */
+  padding:20px;
+  border-radius: 17%;
+  border-color: rgb(206, 206, 233);
+  border-top: 3px;
+  font-family: serif;
+}
+
+#list {
+  text-align: left;
+  padding-left: 45%;
+}
+#welcome {
+  font-style: oblique;
+  color:rgb(241, 224, 188);
+  font-size: 140%;
+  background: rgb(204, 101, 140);
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+/* On screens that are 600px or less, set the background color to blue */
 @media screen and (max-width: 600px) {
-    body {
-      background-color: rgb(255, 255, 97);
-    }
+  body {
+    background-color: rgba(97, 100, 255, 0.63);
+  }
+}
