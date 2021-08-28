@@ -14,7 +14,7 @@ body {
   border-radius: 17%;
   border-color: rgb(206, 206, 233);
   border-top: 3px;
-  font-family: serif;
+  font-family:monospace;
 }
 
 #list {
@@ -22,22 +22,50 @@ body {
   padding-left: 45%;
 }
 #welcome {
-  font-style: oblique;
+  font-style:inherit;
   color:rgb(241, 224, 188);
   font-size: 140%;
-  background: rgb(204, 101, 140);
-  padding: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:linear-gradient(rgb(179, 24, 89), bisque);
+  padding: 80px;
+  font-family:fantasy;
 }
 
+#daniel{
+/* background-color:rgb(240, 0, 80); */
+padding: 50px;
+margin-right: 500px;
+margin-left: 500px;
+border-radius: 50%;
+background:linear-gradient(pink,black);
+color:rgb(246, 133, 167);
 
-
-
-
+}
+.main-section{
+    color:mediumvioletred;
+    background: rgb(255, 159, 199);
+    margin: 100px;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    border-radius: 35px;
+}
+header{
+color:midnightblue
+}
+#MENU{
+    background: palevioletred;
+    color: peachpuff;
+    font-size: 145%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#earrings{
+    border-style:groove;
+}
 
 /* On screens that are 600px or less, set the background color to blue */
 @media screen and (max-width: 600px) {
   body {
-    background-color: rgba(97, 100, 255, 0.63);
+    background-color: rgba(178, 180, 250, 0.63);
   }
 }
