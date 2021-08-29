@@ -45,7 +45,7 @@ padding: 50px;
 margin-right: 500px;
 margin-left: 500px;
 border-radius: 50%;
-background:linear-gradient(pink,black);
+background:radial-gradient(black,pink);
 color:rgb(246, 133, 167);
 
 }
