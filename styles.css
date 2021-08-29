@@ -16,6 +16,15 @@ body {
   border-top: 3px;
   font-family:monospace;
 }
+#logo{
+    position: fixed;
+    right: 3%;
+    bottom:40%;
+    width:300px;
+    opacity: 0.8;
+    border-radius: 17%;
+    
+}
 
 #list {
   text-align: left;
@@ -43,13 +52,14 @@ color:rgb(246, 133, 167);
 .main-section{
     color:mediumvioletred;
     background: rgb(255, 159, 199);
-    margin: 100px;
-    padding-top:50px ;
-    padding-bottom:50px ;
+    margin: 70px;
+    padding-top:35px ;
+    padding-bottom:35px ;
     border-radius: 35px;
 }
 header{
-color:midnightblue
+color:rgb(102, 0, 63);
+margin:10px;
 }
 #MENU{
     background: palevioletred;
@@ -60,7 +70,15 @@ color:midnightblue
     margin-right: 20px;
 }
 #earrings{
-    border-style:groove;
+    /* border-style:groove; */
+}
+#links{
+    font-size: 26px;
+    color: rgb(255, 179, 179);
+    background-color:brown ;
+    padding: 15px;
+    border-radius: 5%;
+    margin:56px;
 }
 
 /* On screens that are 600px or less, set the background color to blue */
